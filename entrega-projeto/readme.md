@@ -25,9 +25,10 @@
    git checkout "seu-nome"
    ```
 
-5. Dentro da pasta entrega-projeto, crie uma pasta com seu nome 
+5. Dentro da pasta entrega-projeto, faça uma cópia da pasta pokedex e renomei com seu nome
    ```
     ├── entrega-propjeto
+    |  ├──pokedex // 
     |  ├──natalia-luiza // exemplo como deve ficar
    ```
 
