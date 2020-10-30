@@ -3,7 +3,7 @@
 
 ## Como faço pra baixar e enviar o projeto ?
 
-1. Entre no repositório da Reprograma e "forke" o [repositorio da aula](https://github.com/reprograma/On8-projeto-III)
+1. Entre no repositório da Reprograma e "forke" o [repositório da aula](https://github.com/reprograma/On8-projeto-III)
 
 2. Clone o repositório para a sua máquina
 
