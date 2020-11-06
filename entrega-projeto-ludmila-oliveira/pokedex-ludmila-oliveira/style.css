@@ -1,0 +1,324 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+
+  font-size: 10px;
+}
+
+body {
+  background: linear-gradient(to right, #b4d7e2, #d9b4e2);
+  color: #ffffff;
+
+  margin: 0;
+
+  font-family: rubik;
+}
+
+.container {
+  padding: 4rem;
+
+  width: 100%;
+  height: 100vh;
+
+  background: url(../img/background-pokemon.png) no-repeat;
+  background-size: cover;
+}
+
+#container-title {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo-img {
+  width: 50rem;
+
+  justify-content: center;
+
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+
+  color: #292929;
+}
+
+.pokedex__forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 3rem;
+}
+
+.message-erro {
+    text-align: center;
+    font-size: 2rem;
+
+    background:#ff0000;
+    color: #ffffff;
+
+    border-radius: .4rem;
+    margin: 2rem auto;
+
+    width: 40rem;
+}
+
+button {
+  background-color: #3566ee;
+  color: #ffffff;
+
+  padding: 1rem;
+  margin: .5rem;
+  border: none;
+  border-radius: .4rem;
+
+  font-size: 1.5rem;
+}
+
+input {
+  padding: 1rem;
+  border: none;
+  border-radius: .4rem;
+
+  font-size: 1.2rem;
+  text-align: center;
+
+  width: 30rem;
+}
+
+/* select {
+  width: 12rem;
+
+  border-radius: .8rem;
+  padding: 1rem;
+} */
+
+.pokedex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 35rem;
+  height: auto;
+
+  margin: 3rem auto;
+}
+
+#pokedexBox {
+  border-radius: 2rem;
+  margin: auto;
+
+  height: 30rem;
+  width: 27rem;
+}
+
+.card {
+  list-style: none;
+
+  padding: 40px;
+  border-radius: 20px;
+
+  color: #292929;
+
+  text-align: center;
+}
+
+/* -------------------- Código de teste do card ------------------------ */
+
+/* 
+.card {
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+} 
+
+.pokedex {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border-radius: 8px;
+}*/
+
+/* ---------------------------------------------------------------------- */
+
+.card-title {
+  text-transform: capitalize;
+
+  font-size: 2.3rem;
+  font-weight: 600;
+
+  margin-top: .5rem;
+
+  color: #292929;
+}
+
+.card-subtitle {
+  margin-top: .5rem;
+
+  color: #383838;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card-image {
+  height: 25rem;
+
+  margin: 2rem auto;
+}
+
+#pokedexList {
+  margin: 1rem auto;
+}
+
+#createPokedex {
+  background: #3c6cb9;
+
+  width: 28rem;
+  height: 6rem;
+
+  display: flex;
+  justify-content: space-around;
+
+  border-radius: .4rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.listaStyle {
+  list-style: none;
+
+  color: #ffffff;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.paragrafoStyle {
+  margin-top: .5rem;
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+
+  color: #ffffff;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+
+  40% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-2px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Cores de fundo dos cards */
+.steel {
+  background: linear-gradient(to top, #ffffff, #cecdcd);
+}
+
+.ghost {
+  background: linear-gradient(to top, #ffffff, #b692df);
+}
+
+.dark {
+  background: linear-gradient(to top, #ffffff, #575252);
+}
+
+.fire {
+  background: linear-gradient(to top, #ffffff, #fa9191);
+}
+
+.grass {
+  background: linear-gradient(to top, #ffffff, #9dffa3);
+}
+
+.electric {
+  background: linear-gradient(to top, #ffffff, #fdec95);
+}
+
+.ice {
+  background: linear-gradient(to top, #ffffff, #def3fd);
+}
+
+.water {
+  background: linear-gradient(to top, #ffffff, #aedefa);
+}
+
+.ground {
+  background: linear-gradient(to top, #ffffff, #ffd2a5);
+}
+
+.rock {
+  background: linear-gradient(to top, #ffffff, #a79485);
+}
+
+.fairy {
+  background: linear-gradient(to top, #ffffff, #ffc5e7);
+}
+
+.poison {
+  background: linear-gradient(to top, #ffffff, #d19cd8);
+}
+
+.bug {
+  background: linear-gradient(to top, #ffffff, #8cb194);
+}
+
+.dragon {
+  background: linear-gradient(to top, #ffffff, #ffbba1);
+
+}
+
+.psychic {
+  background: linear-gradient(to top, #ffffff, #d3d671);
+}
+
+.flying {
+  background: linear-gradient(to top, #ffffff, #dcf5ff);
+}
+
+.fighting {
+  background: linear-gradient(to top, #ffffff, #dacab5);
+}
+
+.normal {
+  background: linear-gradient(to top, #ffffff, #ffe5f6);
+}
