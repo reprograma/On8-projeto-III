@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <span class="detail"></span>
+        <div class="container">
+            <nav>
+                <img src="img/logo.svg" alt="Pokedex">
+                <div class="social">
+                    <a href="https://github.com/thaysagomes" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/tcgms/" target="_blank">LinkedIn</a>
+                    <a href="https://dribbble.com/tcgms" target="_blank">Dribbble</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container center">
+
+            <h2>Choose your Pokemon</h2>
+
+            <div class="pokedex__forms">
+                <form action="#">
+                    <input type="text" id="nomePkm" placeholder="Search for a Pokemon" />
+                    <button type="submit" id="search">Go</button>
+                </form>
+            </div>
+
+            <p id="mensagemErro" class="mensagem-erro"></p>
+
+            <div class="pokedex">
+
+                <a href="" target="_blank" id="pkmUrl">
+                    <div class="" id="pkmnCaixa">
+                        <img src="" alt="" class="pkmn-image" id="pkmnImg">
+                        <p id="pkmId"></p>
+                        <div id="pkmnInfo">
+                            <h2 class="pkmn-name" id="pkmnName"></h2>
+                            <p class="pkmn-type" id="pkmType"></p>
+                            <p class="pkmn-height" id="pkmHeight"></p>
+                            <p class="pkmn-weight" id="pkmWeight"></p>
+                            <p class="pkmn-ability" id="pkmAbility"></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <span class="detail-footer"></span>
+    </footer>
+</body>
+
+</html>
