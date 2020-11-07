@@ -1,6 +1,6 @@
 body {
   background: #efefbb;
-  background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+  background: linear-gradient(to right, #006466, #212F45, #312244, #006D77, #edf6f9);
   color: white;
   margin: 0;
   font-family: rubik;
@@ -31,7 +31,7 @@ h2 {
 }
 
 button {
-  background-color: rgb(239, 187, 230);
+  background-color:#413cd3;
   color: white;
   padding: 10px;
   border: none;
@@ -68,13 +68,13 @@ select {
   position: relative;
 }
 
-.card::after {
+.card:after {
   content: "";
   display: block;
   width: 50%;
   height: 45%;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: #edf6f9;
   opacity: 0.7;
   position: absolute;
   top: 15%;
@@ -92,12 +92,12 @@ select {
   font-weight: normal;
   position: relative;
   z-index: 2;
-  color: #222;
+  color: rgb(3, 3, 3);
 }
 
 .card-subtitle {
   margin-top: 5px;
-  color: #666;
+  color: rgb(3, 3, 3);
   font-weight: lighter;
   text-align: center;
   position: relative;
@@ -129,66 +129,66 @@ select {
 
 /* Cores de fundo dos cards */
 .steel {
-  background-color: #f4f4f4;
+  background-color: #7400b8;
 }
 
 .dark {
-  background-color: #acacac;
+  background-color: #212ddb;
 }
 
 .fire {
-  background-color: #fddfdf;
+  background-color: #f78d37;
 }
 
 .grass {
-  background-color: #defde0;
+  background-color: #9bebeb;
 }
 
 .electric {
-  background-color: #fcf7de;
+  background-color: #4c4eeb;
 }
 
 .water,
 .ice {
-  background-color: #def3fd;
+  background-color: #1ad5f1;
 }
 
 .ground {
-  background-color: #f4e7da;
+  background-color: #31cf59;
 }
 
 .rock {
-  background-color: #d5d5d4;
+  background-color: #cc72ef;
 }
 
 .fairy {
-  background-color: #fceaff;
+  background-color: #dbd810;
 }
 
 .poison {
-  background-color: #98d7a5;
+  background-color: #3286f3;
 }
 
 .bug {
-  background-color: #f8d5a3;
+  background-color: #98afec;
 }
 
 .dragon {
-  background-color: #97b3e6;
+  background-color: #5d67f7;
 }
 
 .psychic {
-  background-color: #eaeda1;
+  background-color: #be3390;
 }
 
 .flying {
-  background-color: #f5f5f5;
+  background-color: #96fc10;
 }
 
 .fighting {
-  background-color: #e6e0d4;
+  background-color: #07c3fc;
 }
 
 .normal {
-  background-color: #f5f5f5;
+  background-color: #f01dbb;
 }
