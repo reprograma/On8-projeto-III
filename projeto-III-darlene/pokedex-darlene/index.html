@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>PokeDex</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main class="container">    
+
+    <div id="container-title">
+      <img class="logoPokemon" src="./img/Pokemon-Logo-em-png-queroimagem-ceiça-crispim.png" alt="Logo do Pokemon">
+      <h2>Escolha o seu Pokemon!</h2>
+    </div>
+
+    <div class="pokedex__forms">
+      <form action="#">
+        <input type="text" id="nomePkm" placeholder="Digite o nome do pokemon" />
+        <button type="submit">Visualizar</button>
+      </form>
+
+    </div>
+
+    <div class="style-card">
+      <div class="container_error_mesage">
+        <p id="errorMesage" class="mensagem-erro"></p>
+      </div>
+
+      <div class="pokedex">
+        <div class="" id="pokedexCaixa">
+
+          <img src="" alt="" class="card-image" id="pokedexImg">
+
+          <h2 class="card-title" id="pokedexTitle"></h2>
+
+          <p class="card-subtitle" id="pokedexSubtitle"></p>
+        </div>
+
+        <div class="list-pokedex">
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
