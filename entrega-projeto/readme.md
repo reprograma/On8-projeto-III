@@ -37,7 +37,7 @@
 
    ```
    git add nome-da-pasta 
-   git commit -m "texto do seu commit"
+   git commit -m "texto do seu commit" 
    git push origin SEU-NOME
    ```
 
