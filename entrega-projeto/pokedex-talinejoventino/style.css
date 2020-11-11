@@ -1,0 +1,222 @@
+ * {
+  padding: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0
+} 
+
+body {
+  background: #efefbb;
+  background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+  color: white;
+  margin: 0;
+  font-family: rubik;
+}
+
+.container {
+  padding: 4rem;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.pokedex__forms {
+  display: flex;
+  justify-content: center;
+}
+.container-error{
+  justify-content: center;
+  display: flex;
+  margin-top: 1rem;
+}
+.mensagem-erro {
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: rgb(239, 187, 230);
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 5px;
+}
+
+input {
+  padding: 1rem;
+  border: none;
+  width: 212px;
+  border-radius: 0.5rem;
+}
+
+select {
+  width: 12rem;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.pokedex {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+.card {
+  list-style: none;
+  padding: 2rem;
+  color: #222;
+  text-align: center;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.card::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+
+.card-title {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-size: 3rem;
+  font-weight: normal;
+  position: relative;
+  z-index: 2;
+  color: #222;
+}
+
+.card-subtitle {
+  margin-top: 5px;
+  color: #666;
+  font-weight: lighter;
+  text-align: center;
+  position: relative;
+  font-size: 1.5rem;
+  z-index: 2;
+}
+
+.card-image {
+  height: 20rem;
+  position: relative;
+  z-index: 2;
+  padding: 1rem;
+}
+
+.infoCaixa {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.listStyle {
+  font-size: 1.5rem;
+  list-style: none;
+}
+.cardHabilidades {
+  padding: 0.8rem;
+  font-size: 1.2rem
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Cores de fundo dos cards */
+.steel {
+  background-color: #f4f4f4;
+}
+
+.dark {
+  background-color: #acacac;
+}
+
+.fire {
+  background-color: #fddfdf;
+}
+
+.grass {
+  background-color: #defde0;
+}
+
+.electric {
+  background-color: #fcf7de;
+}
+
+.water,
+.ice {
+  background-color: #def3fd;
+}
+
+.ground {
+  background-color: #f4e7da;
+}
+
+.rock {
+  background-color: #d5d5d4;
+}
+
+.fairy {
+  background-color: #fceaff;
+}
+
+.poison {
+  background-color: #98d7a5;
+}
+
+.bug {
+  background-color: #f8d5a3;
+}
+
+.dragon {
+  background-color: #97b3e6;
+}
+
+.psychic {
+  background-color: #eaeda1;
+}
+
+.flying {
+  background-color: #f5f5f5;
+}
+
+.fighting {
+  background-color: #e6e0d4;
+}
+
+.normal {
+  background-color: #f5f5f5;
+}
