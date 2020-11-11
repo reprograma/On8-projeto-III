@@ -1,0 +1,196 @@
+body {
+  background: #efefbb;
+  background: linear-gradient(to right, rgb(205, 4, 255), rgb(34, 247, 98));
+  color: black;
+  margin: 0;
+  font-family: rubik;
+}
+
+.container {
+  padding: 40px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 54px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.pokedex__forms {
+  display: flex;
+  justify-content: center;
+}
+
+.mensagem-erro {
+  text-align: center;
+  color: red;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+button , #limpar {
+  background-color: rgb(5, 22, 32);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+ #nomePkm {
+  padding: 10px;
+  border: none;
+  width: 212px;
+  border-radius: 4px;
+}
+
+select {
+  width: 120px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.pokedex {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.card {
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: rgb(10, 8, 8);
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+
+.card-title {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: normal;
+  position: relative;
+  z-index: 2;
+  color: #222;
+}
+
+.card-subtitle {
+  margin-top: 5px;
+  color: rgb(7, 6, 6);
+  font-weight: lighter;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.card-image {
+  height: 180px;
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Cores de fundo dos cards */
+.steel {
+  background-color: #04e762;
+}
+
+.dark {
+  background-color: #f5b700;
+}
+
+.fire {
+  background-color: #00a1e4;
+}
+
+.grass {
+  background-color: #dc0073;
+}
+
+.electric {
+  background-color: #89fc00;
+}
+
+.water,
+.ice {
+  background-color: #218380;
+}
+
+.ground {
+  background-color: #73d2de;
+}
+
+.rock {
+  background-color: #d81159;
+}
+
+.fairy {
+  background-color: #471ca8;
+}
+
+.poison {
+  background-color: #f24b04;
+}
+
+.bug {
+  background-color: #d1105a;
+}
+
+.dragon {
+  background-color: #ff4800;
+}
+
+.psychic {
+  background-color: #dd0df0;
+}
+
+.flying {
+  background-color: #004b23;
+}
+
+.fighting {
+  background-color: #41ead4;
+}
+
+.normal {
+  background-color: #8093f1;
+}
