@@ -111,6 +111,15 @@ select {
   padding: 20px;
 }
 
+.card-peso {
+  margin-top: 5px;
+  color: #666;
+  font-weight: lighter;
+  text-align: right;
+  position: relative;
+  z-index: 2;
+}
+
 @keyframes bounce {
   20% {
     transform: translateY(-6px);
