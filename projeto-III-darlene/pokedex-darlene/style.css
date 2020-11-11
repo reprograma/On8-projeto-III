@@ -1,0 +1,261 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body, html{
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./img/unnamed.png);
+  background-size: 160rem;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 100vh;
+  padding:0 4rem;
+  margin: 0 auto; 
+}
+
+
+#container-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+
+
+}
+
+.logoPokemon {
+  height: 26rem;
+  margin: auto;
+}
+
+
+
+h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: -2.5rem;
+  color: rgb(29, 80, 189);
+}
+
+
+.pokedex__forms {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 4rem;
+  width: 14.8rem;
+  padding-left: 1.rem;
+  border: none;
+  border-radius: 4rem;
+  margin: .5rem;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: rgb(236, 160, 224);
+  color: white;
+}
+
+button:hover{
+  background: rgb(241, 188, 12);
+  color: rgb(6, 21, 53);
+  box-shadow: .1rem .1rem  .5rem rgb(145, 119, 37);
+}
+
+
+
+input {
+  height: 4rem;
+  width: 22rem;
+  border: none;
+  border-radius: 4rem;
+  outline: none;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+.mensagem-erro {
+  color: rgb(194, 46, 46);
+  padding-top: 4rem;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.pokedex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+
+
+
+#pokedexCaixa{
+  height: 26rem;
+  width: 22rem;
+  border-radius:  0 0 20rem 20rem;
+  margin: auto;
+}
+
+.card-title {
+  text-transform: capitalize;
+  margin: 1rem 0 0 0;
+  font-size: 2.4rem;
+  font-weight: normal;
+  text-align: center; 
+  position: relative;
+  z-index: 2; 
+  color: #222;
+}
+
+.card-subtitle {
+  margin-top: .5rem;
+  color: rgb(231, 235, 243);
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.card-image {
+  height: 26rem;
+  position: relative;
+  z-index: 2;
+  margin-top: 1rem;
+}
+
+.list-pokedex{
+  width: 50rem;
+  margin: auto;
+}
+
+#createPokedex {
+  background: #0d2e8b;
+  width: 50rem;
+  height: 6rem;
+  border-radius: .4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 9.5rem 0 2rem 0;
+}
+
+.listStyle{
+  list-style: none;
+  color: rgb(219, 225, 240);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.paragraphStyle{
+  margin-top: .5rem;
+  text-align: center;
+  font-weight: 300;
+  color: rgb(186, 196, 221);
+  font-size: 1.5rem;
+}
+
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Cores de fundo dos cards */
+.steel {
+  background-color: #f4f4f4;
+}
+
+.dark {
+  background: linear-gradient( #06032e, #4a548f);
+}
+
+.fire {
+  background: linear-gradient( #ec410d, #e9d51f);
+ 
+}
+
+.grass {
+  background: linear-gradient( #30e9bb, #cfe5d6);
+}
+
+.ghost{
+  background: linear-gradient( #1b0a35, #aa86e2);
+}
+
+.electric {
+  background: linear-gradient( #ddec0d, #e2ee9d);
+}
+
+ .water{
+  background: linear-gradient( #5f89fd, #102057);
+ }
+.ice {
+  background: linear-gradient( #4e6ec4, #ced8f8);
+}
+
+.ground {
+  background: linear-gradient( #ecc61b,#5c5838);
+}
+
+.rock {
+  background: linear-gradient( #afb9d4, #5c6277);
+}
+
+.fairy {
+  background: linear-gradient( #e95190,#e8d9f8);
+}
+
+.poison {
+  background: linear-gradient( #840bca,#e8d9f8);
+}
+
+.bug {
+  background: linear-gradient( #238a6b, #d3f8ce);
+}
+
+.dragon {
+  background: linear-gradient( #1fa9e9, #ec410d);
+}
+
+.psychic {
+  background: linear-gradient( #d7da40,#d3e2e9);
+}
+
+.flying {
+  background: linear-gradient( #7ad0f8, #a7afaf);
+}
+
+.fighting {
+  background: linear-gradient( #be6115, #c4b637);
+}
+
+.normal {
+  background: linear-gradient( #5a4f53,#d3e2e9);
+}
